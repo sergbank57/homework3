@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu{
+	width: 700px;
+	border: 1px solid rgb(10, 10, 16);
+	background: #050f17;
+	margin: 0px auto;
+}
+ul{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	
+	padding: px; 
+	margin: px;
+}
+ li{
+	list-style-type: none;
+}
+a{
+	padding: 10px;
+	color: rgb(243, 10, 10);
+	display: block;
+	text-decoration: none;
+}
+a:hover {
+	background-color: rgb(183, 20, 20);
+	color: #050f17;
+}
